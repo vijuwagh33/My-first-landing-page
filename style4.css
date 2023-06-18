@@ -1,0 +1,30 @@
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s ;
+    /* transition: all 1s 3s; */
+    
+
+}
+img:hover{
+    /* transform: rotate(90deg); */
+     transform: scale(1.1);
+     /* transform-origin: left top; */
+    /* transform: translate(20px ,20px);  */
+    /* transform: skewX(25deg);
+    transform: skewY(10deg);
+    transform: skew(25deg, 10deg); */
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    border-bottom: 2px solid red;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px solid black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}
